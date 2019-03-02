@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[ActivityType]
+(
+	[Id] TINYINT NOT NULL CONSTRAINT PK_ActivityType PRIMARY KEY, 
+    [Name] VARCHAR(100) NOT NULL
+)
